@@ -12,7 +12,7 @@ function UserListItem({ user, following, handleFollowClick }) {
           Followers: {user.followers.toLocaleString('en-US') + (following.includes(user.id) ? 1 : 0)}
         </Followers>
         <Button onClick={() => handleFollowClick(user.id)} isFollowing={following.includes(user.id)}>
-          {following.includes(user.id) ? "Unfollow" : "Follow"}
+          {following.includes(user.id) ? "Following" : "Follow"}
         </Button>
       </UserCard>
     );
