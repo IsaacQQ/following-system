@@ -71,7 +71,7 @@ function UserList() {
 
   return (
 <Container>
-    <BackButton to="/">Back</BackButton>
+    <BackButton to="/following-system">Back</BackButton>
     <Filter
       value={filter}
       onChange={handleFilterChange}
