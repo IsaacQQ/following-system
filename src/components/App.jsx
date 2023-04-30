@@ -8,7 +8,7 @@ export const App = () => {
   return (
     <BrowserRouter basename="/">
       <Routes>
-        <Route path="/" element={<HomePage />}/>
+        <Route path="/following-system" element={<HomePage />}/>
         <Route path="/tweets" element={<UserList />} />
       </Routes>
     </BrowserRouter>
