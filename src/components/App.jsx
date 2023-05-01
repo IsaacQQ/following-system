@@ -6,9 +6,9 @@ import HomePage from './Home/Home'
 
 export const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/following-system">
       <Routes>
-        <Route path="/following-system" element={<HomePage />}/>
+        <Route path="/" element={<HomePage />}/>
         <Route path="/tweets" element={<UserList />} />
       </Routes>
     </BrowserRouter>
